@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBase.Web", "ZBase.Web\ZBase.Web.csproj", "{688C64FE-EA28-4989-9D25-E2E6E7ECB1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZBase.Web.Tests", "ZBase.Web.Tests\ZBase.Web.Tests.csproj", "{EE7F1C60-7C69-42FC-BD14-451443780786}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688C64FE-EA28-4989-9D25-E2E6E7ECB1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688C64FE-EA28-4989-9D25-E2E6E7ECB1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688C64FE-EA28-4989-9D25-E2E6E7ECB1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688C64FE-EA28-4989-9D25-E2E6E7ECB1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7F1C60-7C69-42FC-BD14-451443780786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7F1C60-7C69-42FC-BD14-451443780786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7F1C60-7C69-42FC-BD14-451443780786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7F1C60-7C69-42FC-BD14-451443780786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
